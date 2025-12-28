@@ -97,7 +97,7 @@ we only check up to **√n**.
 
 ## 🧩 Implementation (Java)
 
-```java
+
 // User function Template for Java
 
 /**
