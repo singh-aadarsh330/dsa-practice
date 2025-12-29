@@ -1,0 +1,40 @@
+/*
+    Find the starting node of a cycle in a linked list
+    using Floyd’s Cycle Detection Algorithm.
+
+    Time Complexity: O(n)
+    Space Complexity: O(1)
+*/
+
+class Solution {
+
+    public int cycleStart(Node head) {
+
+        if (head == null || head.next == null)
+            return -1;
+
+        Node slow = head, fast = head;
+
+        // Phase 1: Detect cycle
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)
+                break;
+        }
+
+        // No cycle present
+        if (fast == null || fast.next == null)
+            return -1;
+
+        // Phase 2: Find cycle start
+        slow = head;
+        while (slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return slow.data;
+    }
+}
