@@ -1,43 +1,54 @@
-# Value Manipulation – Linked List
+# Linked List – Reordering
 
-This section contains linked list problems where the **structure or ordering of nodes is modified**
-using pointer manipulation.
+This directory contains linked list problems that focus on **rearranging nodes**
+by modifying **pointer connections**, without altering node values.
 
-Unlike traversal-based problems, these problems focus on **rewiring node connections** to achieve
-the desired output.
-
----
-
-## 📌 Topics Covered
-- Reordering nodes
-- Swapping nodes
-- Position-based rearrangements
-- Structural transformations
+Problems in this section typically require careful pointer manipulation and
+are designed to test understanding of linked list structure and in-place algorithms.
 
 ---
 
-## 🧠 Common Techniques Used
-- Pointer rewiring
-- Partial list reversal
-- Two-pointer merging
-- In-place transformations
+## 📌 What This Section Covers
+
+- Reordering nodes based on position
+- Alternating or pattern-based rearrangements
+- Group-wise or conditional re-linking
+- Structural transformations without extra lists
+
+---
+
+## 🧠 Core Concepts Practiced
+
+- Pointer rewiring and safe deletion
+- Multi-pointer traversal
+- Dummy node technique
+- In-place list manipulation (O(1) auxiliary space where possible)
 
 ---
 
 ## 📂 Problems Included
-- Reorder Linked List
-- Odd-Even Linked List
-- Swap Nodes in Pairs *(planned)*
+
+- Reorder Linked List  
+- Remove All Duplicates from Unsorted Linked List  
+- Odd–Even Positioned Nodes *(planned)*  
+- Swap Nodes in Pairs *(planned)*  
 
 ---
 
 ## ⏱ Complexity Expectations
+
 Most problems in this section aim for:
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(1) or O(n) depending on constraints
 
 ---
 
-## 💡 Interview Relevance
-These problems are frequently asked in technical interviews and help build
-strong pointer-handling intuition.
+## 🎯 Interview Relevance
+
+Reordering problems are frequently asked in:
+- Product-based company interviews
+- FAANG-style coding rounds
+- Competitive programming platforms (GFG / LeetCode)
+
+Mastering this section builds strong confidence in pointer handling and
+linked list problem-solving.
