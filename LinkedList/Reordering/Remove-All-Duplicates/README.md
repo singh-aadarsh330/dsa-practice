@@ -1,42 +1,68 @@
-🧹 Remove All Duplicates from Unsorted Linked List
+# 🧹 Remove All Duplicates from Unsorted Linked List
 
-📌 Problem Statement
-Given an unsorted singly linked list, remove all nodes that contain duplicate
-values. After processing, only nodes with unique values should remain in the list.
+## 📌 Problem Statement
 
-🧠 Explanation
-If a particular value appears more than once in the linked list, all occurrences
-of that value must be removed entirely. The final list should contain only
-elements that appeared exactly once.
+Given an **unsorted singly linked list**, remove **all nodes that have duplicate values**.  
+After the operation, only nodes with **unique values** should remain in the list.
 
-🛠️ Approach
-The solution follows a two-pass strategy to ensure correctness and clarity.
+- If a value appears more than once, **all occurrences must be removed**
+- The relative order of remaining nodes should be preserved
 
-🔹 First Pass – Frequency Counting
-Traverse the linked list and record the frequency of each node value using a
-HashMap.
+---
 
-🔹 Second Pass – Pointer-Based Deletion
-Traverse the linked list again and remove nodes whose frequency is greater than
-one. A dummy node is used to simplify deletion logic, especially when the head
-node itself needs to be removed.
+## 🧠 Explanation
 
-⏱️ Complexity Analysis
-- Time Complexity: O(n)
-- Space Complexity: O(n)
-- In-place: No (additional space used for HashMap)
+This problem focuses on **eliminating duplicates entirely**, not just reducing them to a single occurrence.
 
-🔍 Key Observations
+For example:
+- Values that appear **more than once** are considered invalid
+- Only values with a **frequency of exactly one** are allowed in the final list
+
+---
+
+## 🛠️ Approach
+
+The solution follows a **two-pass strategy** for clarity and correctness.
+
+### 🔹 First Pass — Frequency Counting
+Traverse the linked list and store the frequency of each node value using a `HashMap`.
+
+### 🔹 Second Pass — Safe Node Deletion
+Traverse the list again and remove nodes whose frequency is greater than one.
+
+A **dummy node** is used to simplify pointer manipulation, especially when the
+head node itself needs to be deleted.
+
+---
+
+## ⏱️ Complexity Analysis
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+- **In-place:** No (extra space used for HashMap)
+
+---
+
+## 🔍 Key Observations
+
 - Index-based deletion is unsafe in linked lists due to shifting positions
-- Pointer-based deletion ensures correctness after structural changes
-- The dummy node pattern avoids special-case handling for head deletion
+- Pointer-based deletion ensures correctness after structural modifications
+- Using a dummy node avoids special-case handling for head deletion
 
-📂 Implementation Details
-- Language: Java
-- File: RemoveAllDuplicates.java
-- Technique: HashMap combined with pointer manipulation
+---
 
-🎯 Interview Notes
-This is a common linked list problem that tests understanding of pointer
-discipline and safe node deletion. Interviewers typically prefer a clean,
-pointer-based approach over index-based logic, even if both pass test cases.
+## 📂 Implementation Details
+
+- **Language:** Java
+- **File:** `RemoveAllDuplicates.java`
+- **Technique:** HashMap + pointer manipulation
+
+---
+
+## 🎯 Interview Notes
+
+- Common variation of duplicate-removal linked list problems
+- Tests understanding of pointer discipline and safe deletion
+- Interviewers prefer **clean pointer-based logic** over index-based approaches
+
+A well-structured solution demonstrates strong fundamentals in linked list manipulation.
