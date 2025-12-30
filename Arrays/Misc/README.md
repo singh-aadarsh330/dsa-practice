@@ -2,44 +2,45 @@
 
 [![Difficulty](https://img.shields.io/badge/Difficulty-Easy%20to%20Medium-orange?style=flat-square)](.)
 [![Language](https://img.shields.io/badge/Language-Java-red?style=flat-square)](.)
-[![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square)](.)
+[![Category](https://img.shields.io/badge/Category-Arrays-blue?style=flat-square)](.)
 
-> This section focuses on concepts, patterns, and problems related to **Misc**, aimed at building strong fundamentals and interview-ready skills.
+> Master array manipulation techniques and efficient problem-solving patterns related to **Misc**.
 
 ---
 
 ## 📋 Overview
 
-The **Misc** module contains structured problems and implementations designed to strengthen understanding of core concepts, common patterns, and efficient problem-solving techniques.
+The **Misc** section is part of the **Arrays** module and focuses on solving problems that strengthen understanding of array-based data structures and algorithmic patterns.
 
 This section emphasizes:
-- Conceptual clarity and fundamentals
-- Pattern-based problem solving
-- Clean and optimized Java implementations
-- Time and space complexity analysis
+- Efficient array traversal and manipulation
+- Pattern-based approaches
+- Optimization using time and space complexity analysis
 - Edge case handling and best practices
 
 ---
 
 ## ✅ Topics Covered
 
-- Fundamental concepts and definitions
-- Common problem patterns
-- Optimized approaches
-- Edge cases and constraints
-- Interview-relevant problems
+- Array traversal and indexing techniques
+- Searching and sorting strategies
+- Prefix sum and sliding window patterns
+- Subarray and range-based problems
+- Optimization techniques and edge cases
 
 ---
 
-## 🧩 Complexity Considerations
+## 🧩 Complexity Analysis
 
 ### Time Complexity
-- Varies based on problem type and approach
-- Optimized solutions preferred over brute force
+- **Access:** O(1)
+- **Traversal:** O(n)
+- **Search:** O(n) / O(log n) (sorted arrays)
+- **Insertion/Deletion:** O(n)
 
 ### Space Complexity
-- Focus on in-place and memory-efficient solutions where possible
-- Auxiliary space analyzed for every solution
+- **In-place algorithms:** O(1)
+- **Auxiliary space:** O(n) where applicable
 
 ---
 
@@ -52,65 +53,45 @@ Misc/
 │   ├── README.md        # Problem explanation
 │   └── Solution.java    # Java implementation
 │
-└── README.md            # This file
+└── README.md            # This documentation
 ```
 
 ---
 
-## 📝 Solution Guidelines
+## 🎯 Key Patterns & Techniques
 
-Each problem folder typically contains:
-- **Problem description**
-- **Approach and intuition**
-- **Java implementation**
-- **Time and space complexity**
-- **Key takeaways**
-
----
-
-## 🎯 Key Learning Objectives
-
-- Build strong conceptual understanding
-- Recognize recurring patterns
-- Write clean and readable Java code
-- Analyze and optimize solutions
-- Prepare effectively for coding interviews
+- **Two Pointer Technique**
+- **Prefix Sum**
+- **Sliding Window**
+- **Binary Search on Arrays**
+- **Subarray Optimization**
 
 ---
 
 ## ⚠️ Common Pitfalls
 
-- Ignoring edge cases
-- Off-by-one errors
-- Unnecessary extra space
-- Inefficient brute-force approaches
-- Missing complexity analysis
+- Index out-of-bound errors
+- Off-by-one mistakes
+- Ignoring empty or single-element arrays
+- Using brute force instead of optimized approaches
 
 ---
 
 ## 🚀 Best Practices
 
-- Prefer readable and maintainable code
-- Optimize only after correctness
-- Handle constraints explicitly
-- Comment complex logic clearly
-- Test with edge cases
+- Prefer in-place modifications where possible
+- Always analyze time and space complexity
+- Test solutions with edge cases
+- Use meaningful variable names
+- Keep code clean and readable
 
 ---
 
-## 📚 References & Resources
+## 📚 Resources
 
-- [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- [LeetCode](https://leetcode.com/)
+- [GeeksforGeeks – Arrays](https://www.geeksforgeeks.org/array-data-structure/)
+- [LeetCode – Array Problems](https://leetcode.com/tag/array/)
 - [Striver A2Z DSA Sheet](https://takeuforward.org/)
-
----
-
-## 🔄 Progress Tracking
-
-- Problems are added incrementally
-- Difficulty increases gradually
-- Focus on quality over quantity
 
 ---
 
@@ -118,6 +99,6 @@ Each problem folder typically contains:
 
 **Happy Coding! 🚀**
 
-_Back to main repository for overall progress and structure._
+_Back to [Arrays Module](../README.md)_
 
 </div>
