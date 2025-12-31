@@ -349,7 +349,7 @@ I focus on recognizing and mastering these patterns:
 
 ## 📈 Progress Tracker
 
-### Current Focus (January 2025)
+### Current Focus (January 2026)
 - ✅ Completed comprehensive Arrays section
 - ✅ Mastered Linked List patterns
 - ✅ Strong foundation in Strings
@@ -358,12 +358,12 @@ I focus on recognizing and mastering these patterns:
 
 ### Monthly Goals
 ```
-January 2025:
+January 2026:
 [▓▓▓▓▓▓▓▓▓▓░░░░░░] 60% - Complete Trees
 [▓▓▓▓░░░░░░░░░░░░] 25% - Start Graphs
 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100% - Document 20+ more solutions
 
-February 2025:
+February 2026:
 [ ] Complete Graph algorithms
 [ ] Master Dynamic Programming basics
 [ ] Reach 250+ problems solved
@@ -372,11 +372,11 @@ February 2025:
 
 ### Milestones Achieved
 
-- ✅ **Dec 25, 2024**: Started GitHub journey
-- ✅ **Dec 28, 2024**: First project completed
-- ✅ **Jan 01, 2025**: 200+ problems documented milestone
-- ✅ **Jan 02, 2025**: Repository structured and organized
-- 🎯 **Target**: 500+ problems by June 2025
+- ✅ **Dec 25, 2025**: Started GitHub journey
+- ✅ **Dec 28, 2025**: First project completed
+- ✅ **Jan 01, 2026**: 200+ problems documented milestone
+- ✅ **Jan 02, 2026**: Repository structured and organized
+- 🎯 **Target**: 500+ problems by June 2026
 
 ---
 
@@ -474,6 +474,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
 
-**Last Updated:** January 2025
+**Last Updated:** January 2026
 
 </div>
