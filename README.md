@@ -230,7 +230,7 @@ dsa-practice/
 
 ---
 
-## 📊 Problem Statistics
+## 📊 GitHub Statistics
 
 <div align="center">
 
