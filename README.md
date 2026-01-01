@@ -1,323 +1,453 @@
 # DSA Practice (Java)
 
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com)
-[![DSA](https://img.shields.io/badge/DSA-Practice-blue?style=flat-square)](https://github.com/singh-aadarsh330/dsa-practice)
-[![Commits](https://img.shields.io/github/commit-activity/w/singh-aadarsh330/dsa-practice?style=flat-square)](https://github.com/singh-aadarsh330/dsa-practice/commits/main)
-[![Last Commit](https://img.shields.io/github/last-commit/singh-aadarsh330/dsa-practice?style=flat-square)](https://github.com/singh-aadarsh330/dsa-practice/commits/main)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![DSA](https://img.shields.io/badge/DSA-Practice-blue?style=for-the-badge)
+![Commit Activity](https://img.shields.io/github/commit-activity/w/singh-aadarsh330/dsa-practice?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/singh-aadarsh330/dsa-practice?style=for-the-badge)
 
-> A comprehensive collection of Data Structures and Algorithms solutions in Java, focused on building strong problem-solving fundamentals for software engineering internships.
+> **My comprehensive Data Structures and Algorithms practice repository documenting my journey from fundamentals to advanced problem-solving.**
 
 ---
 
 ## 📋 Table of Contents
 
-- [About](#-about)
-- [Topics Covered](#-topics-covered)
+- [About This Repository](#-about-this-repository)
 - [Repository Structure](#-repository-structure)
-- [Progress Tracker](#-progress-tracker)
-- [Getting Started](#-getting-started)
+- [Topics Covered](#-topics-covered)
+- [Problem Statistics](#-problem-statistics)
+- [How to Use This Repo](#-how-to-use-this-repo)
 - [Learning Approach](#-learning-approach)
+- [Progress Tracker](#-progress-tracker)
 - [Resources](#-resources)
-- [Connect](#-connect)
+- [Contributing](#-contributing)
+- [Connect With Me](#-connect-with-me)
 
 ---
 
-## 🎯 About
+## 🎯 About This Repository
 
-This repository contains my practice solutions for Data Structures and Algorithms using **Java**. Each solution is:
-- ✨ **Well-documented** with clear explanations
-- 🎯 **Pattern-focused** to recognize common problem-solving techniques
-- 💡 **Interview-ready** with optimal time and space complexity
-- 📖 **Organized by topic** with detailed READMEs
+This repository contains my solutions to **200+ Data Structures and Algorithms problems** solved primarily on GeeksforGeeks. Each solution includes:
 
-**Practice Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/profile/singhaadarsh330)  
-**Total Problems Solved:** 180+
+- ✅ Clean, well-commented Java code
+- ✅ Detailed problem explanation
+- ✅ Time and space complexity analysis
+- ✅ Multiple approaches (when applicable)
+- ✅ Edge cases and test cases
+- ✅ Pattern recognition and key insights
 
----
+### Why This Repo?
 
-## 📌 Topics Covered
-
-<table>
-  <tr>
-    <td align="center"><b>✅ Implemented</b></td>
-    <td align="center"><b>🔄 In Progress</b></td>
-    <td align="center"><b>⏳ Planned</b></td>
-  </tr>
-  <tr>
-    <td>
-      • Arrays<br>
-      • Searching (Binary Search)<br>
-    </td>
-    <td>
-      • Sorting<br>
-      • Recursion<br>
-    </td>
-    <td>
-      • Linked List<br>
-      • Stack & Queue<br>
-      • Trees<br>
-      • Strings<br>
-      • Dynamic Programming<br>
-      • Graphs<br>
-    </td>
-  </tr>
-</table>
-
-> **Note:** New topics are added as I learn and solve problems. This repository grows organically with my learning journey.
+- 📚 **Comprehensive Documentation**: Every topic has a detailed README explaining concepts and patterns
+- 🎯 **Pattern-Based Learning**: Problems are organized by patterns, not just data structures
+- 💡 **Interview Ready**: Solutions follow best practices and coding standards
+- 🔄 **Continuous Updates**: Regularly adding new problems and improving existing solutions
+- 🤝 **Community Learning**: Open for others to learn and contribute
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```
 dsa-practice/
 │
-├── Arrays/
-│   ├── README.md              # Detailed guide on array problems
-│   ├── Matrix/                # 2D array problems
-│   │   └── ...
-│   └── *.java                 # Array problem solutions
+├── ArrayList/              # Dynamic array problems
+│   ├── README.md
+│   └── [solution files]
 │
-├── Searching/
-│   ├── README.md              # Binary Search patterns & applications
-│   └── *.java                 # Search algorithm implementations
+├── Arrays/                 # Array manipulation and algorithms
+│   ├── README.md
+│   └── [65+ solutions]
 │
-├── Sorting/                   # Coming soon
-├── Recursion/                 # Coming soon
-├── LinkedList/                # Coming soon
-├── Stack_Queue/               # Coming soon
-├── Trees/                     # Coming soon
-├── Strings/                   # Coming soon
-└── README.md                  # This file
+├── Basics/                 # Fundamental programming problems
+│   ├── README.md
+│   └── [50+ solutions]
+│
+├── HashMap/                # Hash-based data structures
+│   ├── README.md
+│   └── [solution files]
+│
+├── Java-Concepts/          # Core Java programming concepts
+│   ├── README.md
+│   └── [implementation files]
+│
+├── LinkedList/             # Singly, Doubly, and Circular linked lists
+│   ├── README.md
+│   └── [55+ solutions]
+│
+├── Searching/              # Search algorithms and patterns
+│   ├── README.md
+│   └── [solution files]
+│
+└── README.md              # This file
 ```
-
-### 📁 What Each Folder Contains
-
-- **Topic README.md** - Comprehensive guide including:
-  - Key concepts and patterns
-  - Time and space complexity analysis
-  - Common pitfalls and tips
-  - Interview preparation notes
-  
-- **Solution Files** - Each `.java` file includes:
-  - Problem statement and link
-  - Approach explanation
-  - Complexity analysis
-  - Clean, documented code
 
 ---
 
-## 📊 Progress Tracker
+## 🔥 Topics Covered
 
-### Overall Statistics
+### ✅ Mastered Topics
 
-| Metric | Count |
-|--------|-------|
-| 📝 **Total Problems Solved** | 180+ |
-| 📚 **Topics Implemented** | 2 |
-| 🔄 **Topics In Progress** | 2 |
-| 📈 **Commits** | 29+ |
-| ⭐ **GeeksforGeeks Profile** | [View Profile](https://www.geeksforgeeks.org/profile/singhaadarsh330) |
+<table>
+<tr>
+<td width="50%">
 
-### Difficulty Distribution
+#### 📊 Arrays (65+ Problems)
+- Subarray problems
+- Two Pointer technique
+- Sliding Window
+- Kadane's Algorithm
+- Stock Buy-Sell variations
+- Array rotation
+- Sorting algorithms
 
-```
-Easy:    ████████████████░░░░  80+ problems
-Medium:  ████████████████░░░░  75+ problems
-Hard:    ████░░░░░░░░░░░░░░░░  20+ problems
-```
+**Key Problems:**
+- Maximum Subarray Sum
+- Trapping Rain Water
+- Next Permutation
+- Merge Intervals
+- Product of Array Except Self
 
-### Monthly Goals
+</td>
+<td width="50%">
 
-**December 2024:**
-- [x] Set up GitHub repository
-- [x] Add Arrays topic with solutions
-- [x] Add Binary Search topic
-- [ ] Add Sorting algorithms
-- [ ] Add Recursion problems
-- [ ] Document 50+ problems on GitHub
+#### 🔗 Linked Lists (55+ Problems)
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+- Fast & Slow pointer
+- Reversal techniques
+- Merge operations
 
-**January 2025:**
-- [ ] Complete 6+ topics
-- [ ] Document 150+ problems
-- [ ] Start Trees and Linked Lists
-- [ ] Create first Java project
+**Key Problems:**
+- Reverse Linked List (variations)
+- Detect & Remove Loop
+- Add Two Numbers
+- Merge K Sorted Lists
+- Flatten Linked List
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### 📝 Strings (25+ Problems)
+- Pattern matching
+- Palindromes
+- Anagrams
+- String manipulation
+- Prefix/Suffix problems
+
+**Key Problems:**
+- Longest Palindromic Substring
+- KMP Algorithm
+- Rabin-Karp
+- Longest Common Prefix
+- Valid Parentheses
+
+</td>
+<td width="50%">
+
+#### 🔍 Searching (15+ Problems)
+- Binary Search variations
+- Search in rotated array
+- Peak element
+- First/Last occurrence
+- Square root problems
+
+**Key Problems:**
+- Binary Search
+- Search in 2D Matrix
+- Find Peak Element
+- Aggressive Cows
+- Book Allocation
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### 🗂️ HashMap & HashSet
+- Frequency counting
+- Two Sum pattern
+- Subarray with given sum
+- Longest substring problems
+
+**Key Problems:**
+- Two Sum
+- Group Anagrams
+- Subarray Sum Equals K
+- Longest Consecutive Sequence
+
+</td>
+<td width="50%">
+
+#### 📦 ArrayList
+- Dynamic arrays
+- ArrayList operations
+- Custom implementations
+- ArrayList vs Array
+
+**Concepts:**
+- Resizing strategies
+- Time complexity analysis
+- Memory management
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### ☕ Java Concepts
+- OOP principles
+- Collections Framework
+- Exception Handling
+- Java fundamentals
+
+</td>
+<td width="50%">
+
+#### 🎯 Basics (50+ Problems)
+- Mathematical problems
+- Bit manipulation
+- Number theory
+- Pattern printing
+- Recursion basics
+
+</td>
+</tr>
+</table>
+
+### 🔄 In Progress
+
+- **Trees**: Binary Trees, BST, Tree Traversals
+- **Graphs**: BFS, DFS, Shortest Path Algorithms
+- **Dynamic Programming**: Classic DP problems
+- **Stacks & Queues**: Advanced applications
+- **Greedy Algorithms**: Optimization problems
 
 ---
 
-## 🚀 Getting Started
+## 📊 GitHub Statistics
 
-### Prerequisites
+<div align="center">
 
-- Java Development Kit (JDK) 8 or higher
-- Any Java IDE (IntelliJ IDEA, Eclipse, VS Code)
-- Basic understanding of Java syntax
+| Difficulty | Count | Percentage |
+|------------|-------|------------|
+| 🟢 **Basic** | 50+ | 25% |
+| 🔵 **Easy** | 90+ | 45% |
+| 🟠 **Medium** | 55+ | 27.5% |
+| 🔴 **Hard** | 5+ | 2.5% |
+| **Total** | **200+** | **100%** |
 
-### Clone the Repository
+</div>
+
+### Platform Distribution
+
+- **GeeksforGeeks**: 200+ problems (Primary platform)
+- **LeetCode**: Started practicing
+- **CodeChef**: Recently began
+
+### Coding Statistics
+
+- 🏆 **Coding Score**: 560+ (GeeksforGeeks)
+- 📈 **Institute Rank**: #330
+- 🔥 **Daily Streak**: Ongoing
+- ⏱️ **Average Time per Problem**: 30-45 minutes
+
+---
+
+## 🚀 How to Use This Repo
+
+### For Learners
+
+1. **Choose a Topic**: Start with basics or pick your interest area
+2. **Read the README**: Each folder has detailed explanations
+3. **Understand the Pattern**: Look for recurring problem-solving patterns
+4. **Try Yourself First**: Attempt the problem before viewing solution
+5. **Study Multiple Approaches**: Compare different solutions
+6. **Practice Variations**: Modify and create your own test cases
+
+### For Interviewers/Recruiters
+
+- Browse by topic to assess problem-solving approach
+- Check code quality and documentation standards
+- Review complexity analysis and optimization thinking
+- Examine commit history for consistency
+
+### Running the Code
 
 ```bash
+# Clone the repository
 git clone https://github.com/singh-aadarsh330/dsa-practice.git
 cd dsa-practice
-```
 
-### Running Solutions
-
-Each solution is a standalone Java file that can be compiled and run:
-
-```bash
-# Navigate to the topic folder
+# Navigate to any topic folder
 cd Arrays
 
-# Compile the Java file
+# Compile and run any solution
 javac SolutionFileName.java
-
-# Run the program
 java SolutionFileName
 ```
 
-### Explore by Topic
+---
 
-1. Navigate to any topic folder (e.g., `Arrays/`, `Searching/`)
-2. Read the `README.md` for topic overview and patterns
-3. Browse individual solution files
-4. Each file contains problem link, approach, and implementation
+## 🎓 Learning Approach
+
+### My Problem-Solving Framework
+
+```
+1. UNDERSTAND
+   └─ Read problem carefully
+   └─ Identify inputs, outputs, constraints
+   └─ Ask clarifying questions
+
+2. PLAN
+   └─ Think of brute force approach first
+   └─ Identify patterns and similar problems
+   └─ Consider data structures needed
+
+3. IMPLEMENT
+   └─ Write clean, readable code
+   └─ Add comments for complex logic
+   └─ Handle edge cases
+
+4. TEST
+   └─ Test with provided examples
+   └─ Create additional test cases
+   └─ Test edge cases
+
+5. OPTIMIZE
+   └─ Analyze time and space complexity
+   └─ Think of better approaches
+   └─ Refactor if needed
+
+6. DOCUMENT
+   └─ Write detailed README
+   └─ Explain approach and logic
+   └─ Note key learnings
+```
+
+### Problem-Solving Patterns
+
+I focus on recognizing and mastering these patterns:
+
+1. **Two Pointers** - Array problems, palindromes
+2. **Sliding Window** - Substring/subarray problems
+3. **Fast & Slow Pointers** - Linked list cycle detection
+4. **Merge Intervals** - Overlapping intervals
+5. **Cyclic Sort** - Missing number problems
+6. **In-place Reversal** - Linked list reversals
+7. **Binary Search** - Sorted array searches
+8. **Top K Elements** - Heap problems
+9. **Modified Binary Search** - Rotated arrays
+10. **Subsets/Permutations** - Backtracking
 
 ---
 
-## 💡 Learning Approach
+## 📈 Progress Tracker
 
-My problem-solving methodology follows these steps:
+### Current Focus (January 2026)
+- ✅ Completed comprehensive Arrays section
+- ✅ Mastered Linked List patterns
+- ✅ Strong foundation in Strings
+- 🔄 Working on Tree problems
+- 🔄 Starting Graph algorithms
 
-### 1️⃣ **Understand the Problem**
-- Read the problem statement multiple times
-- Identify input, output, and constraints
-- Work through examples manually
+### Monthly Goals
+```
+January 2026:
+[▓▓▓▓▓▓▓▓▓▓░░░░░░] 60% - Complete Trees
+[▓▓▓▓░░░░░░░░░░░░] 25% - Start Graphs
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100% - Document 20+ more solutions
 
-### 2️⃣ **Think of Approaches**
-- Start with brute force solution
-- Analyze time and space complexity
-- Optimize using patterns and data structures
+February 2026:
+[ ] Complete Graph algorithms
+[ ] Master Dynamic Programming basics
+[ ] Reach 250+ problems solved
+[ ] Improve institute rank to Top 250
+```
 
-### 3️⃣ **Code the Solution**
-- Write clean, readable code
-- Use meaningful variable names
-- Add comments for complex logic
+### Milestones Achieved
 
-### 4️⃣ **Analyze Complexity**
-- Calculate time complexity
-- Evaluate space complexity
-- Compare with optimal solution
-
-### 5️⃣ **Review & Optimize**
-- Test with edge cases
-- Look for further optimizations
-- Document learnings
-
----
-
-## 🎯 Goal
-
-To build strong problem-solving fundamentals and prepare for **software engineering internships** through:
-- Consistent daily practice
-- Pattern recognition and application
-- Deep understanding over memorization
-- Building a comprehensive portfolio
-
----
-
-## 🔑 Key Patterns Mastered
-
-### Arrays
-- Two Pointers Technique
-- Sliding Window
-- Prefix Sum
-- Kadane's Algorithm
-
-### Searching
-- Binary Search (Iterative & Recursive)
-- Lower Bound & Upper Bound
-- Binary Search on Answer Space
-- Search in Rotated Arrays
-
-### Coming Soon
-- Sorting Algorithms
-- Recursion & Backtracking
-- Tree Traversals
-- Dynamic Programming
+- ✅ **Dec 25, 2025**: Started GitHub journey
+- ✅ **Dec 28, 2025**: First project completed
+- ✅ **Jan 01, 2026**: 200+ problems documented milestone
+- ✅ **Jan 02, 2026**: Repository structured and organized
+- 🎯 **Target**: 500+ problems by June 2026
 
 ---
 
 ## 📚 Resources
 
-### Primary Practice Platform
-- [GeeksforGeeks](https://www.geeksforgeeks.org/) - Main practice platform
-
-### Learning Resources
-- [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) - Structured learning path
-- [TakeUForward](https://www.youtube.com/@takeUforward) - Video explanations
-- [GeeksforGeeks DSA Course](https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/) - Concepts
-
 ### Recommended Books
-- *Introduction to Algorithms* by CLRS
-- *Cracking the Coding Interview* by Gayle Laakmann McDowell
-- *Elements of Programming Interviews in Java*
+- **"Introduction to Algorithms"** by CLRS
+- **"Cracking the Coding Interview"** by Gayle Laakmann McDowell
+- **"Algorithms"** by Robert Sedgewick
 
----
+### Online Platforms
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) - Primary practice platform
+- [LeetCode](https://leetcode.com/) - Interview preparation
+- [CodeChef](https://www.codechef.com/) - Competitive programming
+- [HackerRank](https://www.hackerrank.com/) - Additional practice
 
-## 💻 Tech Stack
+### Useful Websites
+- [VisuAlgo](https://visualgo.net/) - Algorithm visualizations
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) - Complexity reference
+- [CP-Algorithms](https://cp-algorithms.com/) - Algorithm explanations
 
-**Language:** Java  
-**IDE:** IntelliJ IDEA / VS Code  
-**Version Control:** Git & GitHub  
-**Practice Platform:** GeeksforGeeks
+### YouTube Channels
+- Striver (takeUforward)
+- Aditya Verma
+- Abdul Bari
+- Back To Back SWE
 
 ---
 
 ## 🤝 Contributing
 
-While this is a personal practice repository, I'm open to:
-- Suggestions for better approaches
-- Code optimization tips
-- Bug reports in solutions
-- Discussions on problem-solving strategies
+While this is primarily my personal learning repository, I welcome:
 
-Feel free to open an issue or reach out!
+- 🐛 **Bug Reports**: If you find any issues in solutions
+- 💡 **Suggestions**: Better approaches or optimizations
+- 📖 **Documentation**: Improvements in explanations
+- ❓ **Questions**: Open issues for discussion
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -m 'Add some improvement'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
 
 ---
 
-## 📫 Connect
+## 📫 Connect With Me
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singh-aadarsh330)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-00C853?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/singhaadarsh330)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-00C853?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/singhaadarsh330)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/your_username)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/singh-aadarsh330)
 
-**Aadarsh Singh**  
-CSE Undergraduate | KIIT University  
-📧 Email: [Available on LinkedIn]
+**Have questions or want to discuss a problem? Feel free to reach out!**
 
 </div>
 
 ---
 
-## 📝 Note on Problem Sources
-
-All problems are from:
-- [GeeksforGeeks](https://www.geeksforgeeks.org/) - Practice problems
-- Self-learning and practice
-
-Solutions are my own implementations after understanding the problem. If you're practicing, try solving problems yourself before looking at solutions.
-
----
-
-## ⭐ Show Your Support
+## ⭐ Support
 
 If you find this repository helpful:
-- ⭐ **Star** this repository
-- 🍴 **Fork** it for your own practice
-- 📢 **Share** with fellow learners
-- 💬 **Discuss** problem-solving approaches
+
+- ⭐ **Star this repo** to show your support
+- 🔄 **Fork it** to practice on your own
+- 👀 **Watch** for updates
+- 📢 **Share** with others learning DSA
 
 ---
 
@@ -327,25 +457,23 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🔄 Updates
+## 🙏 Acknowledgments
 
-This repository is **actively maintained** and updated regularly:
-- **Daily:** New problem solutions added
-- **Weekly:** READMEs updated with learnings
-- **Monthly:** Progress tracker and stats updated
-
-**Last Updated:** December 2024
+- **GeeksforGeeks** - For comprehensive problem sets and learning resources
+- **KIIT University** - For fostering a great learning environment
+- **Open Source Community** - For inspiration and learning resources
+- **Fellow Learners** - For motivation and support
 
 ---
 
 <div align="center">
 
-### 🚀 Built with dedication by [Aadarsh Singh](https://github.com/singh-aadarsh330)
+### 🚀 "Code, Learn, Repeat"
 
-*"Building one commit at a time"*
+**Built with ❤️ by [Aadarsh Singh](https://github.com/singh-aadarsh330)**
 
-![Made with Java](https://img.shields.io/badge/Made%20with-Java-red?style=for-the-badge&logo=java)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-green?style=for-the-badge)
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
+
+**Last Updated:** January 2026
 
 </div>
