@@ -41,3 +41,28 @@ These problems typically involve:
 ### Add Binary Strings
 Given two binary strings, return their sum as a binary string.
 
+Input:
+s1 = "101"
+s2 = "11"
+
+Output:
+"1000"
+
+
+---
+
+## 🎯 Why This Folder Exists
+
+Separating binary string problems helps:
+- Improve conceptual clarity
+- Group bit-level string problems together
+- Make revision faster before interviews
+
+---
+
+## 🏷 Tags
+`Strings` `Binary Strings` `Bit Manipulation` `Simulation` `Java`
+
+---
+
+📌 **Note:** All solutions are written with interview-readability and optimal complexity in mind.
