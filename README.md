@@ -26,7 +26,7 @@
 
 ## 🎯 About This Repository
 
-This repository contains my solutions to **200+ Data Structures and Algorithms problems** solved primarily on GeeksforGeeks. Each solution includes:
+This repository contains my solutions to **307+ Data Structures and Algorithms problems** solved primarily on GeeksforGeeks. Each solution includes:
 
 - ✅ Clean, well-commented Java code
 - ✅ Detailed problem explanation
@@ -209,7 +209,7 @@ dsa-practice/
 </td>
 <td width="50%">
 
-#### 🎯 Basics (50+ Problems)
+#### 🎯 Basics (37+ Problems)
 - Mathematical problems
 - Bit manipulation
 - Number theory
@@ -230,31 +230,33 @@ dsa-practice/
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 Problem Statistics
 
 <div align="center">
 
 | Difficulty | Count | Percentage |
 |------------|-------|------------|
-| 🟢 **Basic** | 50+ | 25% |
-| 🔵 **Easy** | 90+ | 45% |
-| 🟠 **Medium** | 55+ | 27.5% |
-| 🔴 **Hard** | 5+ | 2.5% |
-| **Total** | **200+** | **100%** |
+| 🏫 **School** | 0 | 0% |
+| 🟢 **Basic** | 37 | ~12% |
+| 🔵 **Easy** | 174 | ~57% |
+| 🟠 **Medium** | 92 | ~30% |
+| 🔴 **Hard** | 4 | ~1% |
+| **Total** | **307** | **100%** |
 
 </div>
 
 ### Platform Distribution
 
-- **GeeksforGeeks**: 200+ problems (Primary platform)
+- **GeeksforGeeks**: 307+ problems (Primary platform)
 - **LeetCode**: Started practicing
 - **CodeChef**: Recently began
 
 ### Coding Statistics
 
-- 🏆 **Coding Score**: 560+ (GeeksforGeeks)
-- 📈 **Institute Rank**: #330
-- 🔥 **Daily Streak**: Ongoing
+- 🏆 **Coding Score**: 755+ (GeeksforGeeks)
+- 📈 **Institute Rank**: #222
+- 📅 **Submissions in 2026**: 112
+- 🔥 **POTDs Solved**: 9
 - ⏱️ **Average Time per Problem**: 30-45 minutes
 
 ---
@@ -349,25 +351,27 @@ I focus on recognizing and mastering these patterns:
 
 ## 📈 Progress Tracker
 
-### Current Focus (January 2026)
+### Current Focus (May 2026)
 - ✅ Completed comprehensive Arrays section
 - ✅ Mastered Linked List patterns
 - ✅ Strong foundation in Strings
+- ✅ 307+ problems solved milestone
+- ✅ Institute Rank improved to #222
 - 🔄 Working on Tree problems
 - 🔄 Starting Graph algorithms
 
 ### Monthly Goals
 ```
-January 2026:
-[▓▓▓▓▓▓▓▓▓▓░░░░░░] 60% - Complete Trees
-[▓▓▓▓░░░░░░░░░░░░] 25% - Start Graphs
-[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100% - Document 20+ more solutions
+May 2026:
+[▓▓▓▓▓▓▓▓▓▓▓▓░░░░] 75% - Complete Trees
+[▓▓▓▓▓▓░░░░░░░░░░] 40% - Graph algorithms
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░] 85% - Document all solutions
 
-February 2026:
-[ ] Complete Graph algorithms
+June 2026:
 [ ] Master Dynamic Programming basics
-[ ] Reach 250+ problems solved
-[ ] Improve institute rank to Top 250
+[ ] Reach 400+ problems solved
+[ ] Achieve Coding Score 900+
+[ ] Improve Institute Rank to Top 150
 ```
 
 ### Milestones Achieved
@@ -376,6 +380,7 @@ February 2026:
 - ✅ **Dec 28, 2025**: First project completed
 - ✅ **Jan 01, 2026**: 200+ problems documented milestone
 - ✅ **Jan 02, 2026**: Repository structured and organized
+- ✅ **May 2026**: 307+ problems solved, Rank #222, Score 755+
 - 🎯 **Target**: 500+ problems by June 2026
 
 ---
@@ -431,7 +436,7 @@ While this is primarily my personal learning repository, I welcome:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singh-aadarsh330)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-00C853?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/singhaadarsh330)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/your_username)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/singh_aadarsh)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/singh-aadarsh330)
 
 **Have questions or want to discuss a problem? Feel free to reach out!**
@@ -474,6 +479,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
 
-**Last Updated:** January 2026
+**Last Updated:** May 2026
 
 </div>
